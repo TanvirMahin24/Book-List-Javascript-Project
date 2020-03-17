@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.sucess, .error{
+    color: #FFF;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+}
+.sucess{
+    background: forestgreen;
+}
+.error{
+    background: #a8270d;
+}
+.delete{
+    color: #a8270d;
+    text-decoration: none;
+}
+.header{
+    display: block;
+    width: 100%;
+    background: #0FA0CE;
+}
+h2{
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0;
+}

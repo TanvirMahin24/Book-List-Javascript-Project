@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/skeleton.css">
+    <title>Book List</title>
+</head>
+<body>
+<div class="header">
+    <h2>Add a New Book to the List</h2>
+</div>
+<div class="container">
+    <form id="book-form">
+        <div class="">
+            <label for="title">Title</label>
+            <input type="text" id="title" class="u-full-width">
+        </div>
+        <div class="">
+            <label for="author">Author</label>
+            <input type="text" id="author" class="u-full-width">
+        </div>
+        <div class="">
+            <label for="isbn">ISBN</label>
+            <input type="text" id="isbn" class="u-full-width">
+        </div>
+        <div>
+            <input type="submit" value="Submit" class="u-full-width">
+        </div>
+    </form>
+    <table class="u-full-width">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="book-list"></tbody>
+    </table>
+</div>
+<script src="./js/app.js"></script>
+</body>
+</html>
